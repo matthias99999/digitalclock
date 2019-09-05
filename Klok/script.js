@@ -107,7 +107,7 @@ $(latinoBolletjes[1]).css("background","red");
 }
 
 else{
-$(latinoBolletjes[2]).css("background","red");
+$(latinoBolletjes[0]).css("background","red");
 
 }
 
