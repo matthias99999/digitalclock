@@ -44,7 +44,12 @@ var uur = t.getHours();
 if (uur >12){
 
 uur = uur - 12;	
+}
+
+if (uur <10){
+
 uur = "0" + uur;
+	
 }
 
 var minuut = t.getMinutes();
