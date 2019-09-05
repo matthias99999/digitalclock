@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Klok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="klokblok">
+            <div class="inhoud">
+                <ul class="lijst">
+                    <li>DATE</li>
+                    <li>MONTH</li>
+                    <li>YEAR</li>
+                </ul>
+                <div class="date" id="datetime">
+                </div>
+                <ul class="lijst">
+                    <li>HOUR</li>
+                    <li>MINUTE</li>
+                    <li>SECOND</li>
+                </ul>
+                <div class="date" id="time">
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <div id="circle" class="tick"></div><span>sun</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>mon</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>tue</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>wed</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>thu</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>fri</span>
+                        </td>
+                        <td>
+                            <div id="circle" class="tick"></div><span>sat</span>
+                        </td>
+                    </tr>
+                </table>
+                <div class="flex">
+                <div class="latinovakje">
+                	<table class="latino">
+                		<tr>
+                		<td><div id="circle2" class="tick2"></div></td><td>am</td>
+                	</tr>
+                	<tr>
+                		<td><div id="circle2" class="tick2"></div></td><td>pm</td>
+                	</table>               	
+                </div>
+				<div class="naamtekst">	
+					<p>Ajanta QUARTZ</p>
+				</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+background:black;
+font-family: monospace;
+font-weight: bold;
+}
+
+.container{
+margin: 10vw auto;
+max-width: 380px;
+border: 5px solid grey;
+border-radius: 10px;
+min-height: 20rem;
+
+
+}
+
+.klokblok{
+
+margin: 1vw;
+border: 2px solid grey;
+border-radius: 10px;
+min-height: 20rem;
+}
+
+.inhoud{
+
+margin: 1vw;
+color:white;
+
+
+
+}
+
+
+.lijst li{
+
+display:inline;
+padding:0 1rem;
+list-style-type: none;
+font-size: 18px;
+font-weight: bold;
+}
+
+.date{
+
+border: 2px solid grey;
+border-radius: 5px;
+min-height: 2rem;
+padding: 7px 0;
+margin-bottom: 1rem;
+color:red;
+font-size: 30px;
+text-align:center;
+padding-right: 15px;
+}
+
+table{
+ width:100%;
+ 
+
+}
+td{
+ width:20px;
+ height:20px;
+ text-align:center;
+
+
+
+}
+td span{
+ color:whitesmoke;
+ font-family:calibri;
+
+
+}
+#circle{
+ width:15px;
+ height:15px;
+ border:1px solid grey;
+ border-radius:50%;
+ margin-left:15px;
+
+}
+
+#circle2{
+ width:20px;
+ height:20px;
+ border:1px solid grey;
+ border-radius:50%;
+ margin: 2px 0;
+;
+
+}
+
+
+ .latinovakje{
+	
+	max-width: 20%;
+	border-radius: 5px;
+	border: 2px solid grey;
+	padding: 3px;
+margin-top: 10px;
+
+ }
+
+
+
+ .naamtekst{
+
+font-size: 25px;
+padding-top: 30px;
+padding-left: 20px;
+
+
+ }
+
+ .flex{
+
+display:flex;
+
+
+ }
